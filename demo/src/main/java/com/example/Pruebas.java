@@ -22,7 +22,7 @@ public class Pruebas {
 
         System.out.println("Prueba 4: Uso del metodo con todas las palbras en mayusculas");
         System.out.println("Nombre usado: LUIS MIGUEL URBEZ");
-        cadena.DevuelveIniciales("LUIS MIGUEL URBEZ");
+        cadena.DevuelveIniciales(" LUIS MIGUEL URBEZ");
 
     }
 }
