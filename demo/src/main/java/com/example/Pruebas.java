@@ -4,7 +4,7 @@ public class Pruebas {
     public void pruebaCodigo(){
         System.out.println("Se van a realizar las diferentes pruebas sobre el codigo:\n");
 
-        System.out.println("Prueba 1: Uso correcto de la funcion DevuelveIniciales()");
+        System.out.println("Prueba 1: Uso correcto de la funcion usando mayusculas");
         ClaseCadena cadena = new ClaseCadena();
         System.out.println("Nombre usado: Luis Miguel Urbez");
         cadena.DevuelveIniciales("Luis Miguel Urbez");
