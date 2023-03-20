@@ -3,20 +3,17 @@ package com.example;
 import java.util.Scanner;
 
 public class ClaseCadena {
-    public void DevuelveIniciales(){
-        Scanner teclado = new Scanner(System.in);
-        System.out.println("Introduce tu nombre y apellidos: ");
-        String nombre = teclado.nextLine();
-
-        
+    public void DevuelveIniciales(String nombre){
         String[] palabras = nombre.split(" ");
         String iniciales = "";
-        for (String palabra : palabras) {
-            iniciales += palabra.charAt(0);
+        for(int i = 0; i < nombre.length(); i++){
+            if(nombre.charAt(i) >= 'A' && nombre.charAt(i) <= 'Z'){
+                iniciales += nombre.charAt(i);
+            }
         }
-        System.out.println(iniciales);
+        System.out.println("Las iniciales son: " + iniciales);
 
-        teclado.close();
+        //GEnerame un codigo que me devuelva las iniciales que esten  en mayucula  de una cadena
 
     }
 }
