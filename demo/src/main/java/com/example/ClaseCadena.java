@@ -8,7 +8,7 @@ public class ClaseCadena {
         String[] palabras = nombre.split(" ");
 
         String iniciales = "";
-        
+
         for (int i = 0; i < nombre.length(); i++) {
             if ( nombre.charAt(i) >= 'A' && nombre.charAt(i) <= 'Z' ) {
                 if (nombre.charAt(i-1) == ' ') {
