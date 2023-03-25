@@ -1,4 +1,4 @@
-# LasPruebas_LuisMiguelUrbez_TecProgramacion
+# Ejercicio "Las Pruebas" de Luis Miguel Urbez
 
 ## Repositorio: https://github.com/LuisMi01/LasPruebas_LuisMiguelUrbez_TecProgramacion
 
