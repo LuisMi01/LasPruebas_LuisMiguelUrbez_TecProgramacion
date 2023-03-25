@@ -3,7 +3,6 @@
 ## Repositorio: https://github.com/LuisMi01/LasPruebas_LuisMiguelUrbez_TecProgramacion
 
 ## Ejercicio a realizar:
-Debe escribir:
 
 Una clase ClaseCadena que contenga un método DevuelveIniciales que permita devolver las iniciales de los nombres y apellidos que se pasan como argumento en forma de cadena, como se indica a continuación:
 
