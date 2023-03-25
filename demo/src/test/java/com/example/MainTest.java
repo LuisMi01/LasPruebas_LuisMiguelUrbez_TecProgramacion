@@ -13,6 +13,9 @@ public class MainTest {
         assertEquals("L", claseCadena.DevuelveIniciales("Luis"));
         assertEquals("", claseCadena.DevuelveIniciales("luis miguel"));
         assertEquals("LM", claseCadena.DevuelveIniciales("LUIS MIGUEL"));
+        assertEquals("L", claseCadena.DevuelveIniciales("LUISMIGUEL"));
+        assertEquals("L", claseCadena.DevuelveIniciales("LuisAlfonso"));
+        assertEquals("", claseCadena.DevuelveIniciales("luismiguel"));
     }
 
 }
