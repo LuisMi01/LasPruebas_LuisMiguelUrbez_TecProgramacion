@@ -1,9 +1,7 @@
 package com.example;
 
-import java.util.Scanner;
-
 public class ClaseCadena {
-    public void DevuelveIniciales(String nombre){
+    public Object DevuelveIniciales(String nombre){
 
         String[] palabras = nombre.split(" ");
 
@@ -11,13 +9,10 @@ public class ClaseCadena {
 
         for (int i = 0; i < nombre.length(); i++) {
             if ( nombre.charAt(i) >= 'A' && nombre.charAt(i) <= 'Z' ) {
-                if (nombre.charAt(i-1) == ' ') {
                     iniciales += nombre.charAt(i);
-                }
             }
         }
         System.out.println("Las iniciales son: " + iniciales);
-
-
+        return iniciales;
     }
 }
